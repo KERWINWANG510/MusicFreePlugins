@@ -480,8 +480,8 @@ async function getMusicSheetInfo(sheet, page) {
 module.exports = {
     platform: "QQ音乐",
     author: '猫头猫',
-    version: "0.2.2",
-    srcUrl: "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/qq/index.js",
+    version: "0.2.3",
+    srcUrl: "https://raw.githubusercontent.com/KERWINWANG510/MusicFreePlugins/master/dist/qq/index.js",
     cacheControl: "no-cache",
     hints: {
         importMusicSheet: [

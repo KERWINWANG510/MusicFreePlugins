@@ -59,7 +59,7 @@ const headers = {
     Cookie: "uin=",
 };
 const validSongFilter = (item) => {
-    return item.pay.pay_play === 0 || item.pay.payplay === 0;
+    return true;
 };
 async function searchBase(query, page, type) {
     const res = (await (0, axios_1.default)({
